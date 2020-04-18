@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Updated-React-Portfolio/static/css/main.2056b2d7.chunk.css",
+    "main.js": "/Updated-React-Portfolio/static/js/main.76011648.chunk.js",
+    "main.js.map": "/Updated-React-Portfolio/static/js/main.76011648.chunk.js.map",
+    "runtime-main.js": "/Updated-React-Portfolio/static/js/runtime-main.acd0bce5.js",
+    "runtime-main.js.map": "/Updated-React-Portfolio/static/js/runtime-main.acd0bce5.js.map",
+    "static/js/2.d9995a0b.chunk.js": "/Updated-React-Portfolio/static/js/2.d9995a0b.chunk.js",
+    "static/js/2.d9995a0b.chunk.js.map": "/Updated-React-Portfolio/static/js/2.d9995a0b.chunk.js.map",
+    "index.html": "/Updated-React-Portfolio/index.html",
+    "precache-manifest.711a1befaa783106313dea0dad27ccff.js": "/Updated-React-Portfolio/precache-manifest.711a1befaa783106313dea0dad27ccff.js",
+    "service-worker.js": "/Updated-React-Portfolio/service-worker.js",
+    "static/css/main.2056b2d7.chunk.css.map": "/Updated-React-Portfolio/static/css/main.2056b2d7.chunk.css.map",
+    "static/js/2.d9995a0b.chunk.js.LICENSE.txt": "/Updated-React-Portfolio/static/js/2.d9995a0b.chunk.js.LICENSE.txt",
+    "static/media/Arrow.jpeg": "/Updated-React-Portfolio/static/media/Arrow.604d3a65.jpeg",
+    "static/media/Capstone.jpg": "/Updated-React-Portfolio/static/media/Capstone.d9d131e3.jpg",
+    "static/media/February2020.jpg": "/Updated-React-Portfolio/static/media/February2020.ec55942a.jpg",
+    "static/media/IMG_0589.JPG": "/Updated-React-Portfolio/static/media/IMG_0589.a47225f8.JPG",
+    "static/media/style.css": "/Updated-React-Portfolio/static/media/greyBG.8350b7ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acd0bce5.js",
+    "static/js/2.d9995a0b.chunk.js",
+    "static/css/main.2056b2d7.chunk.css",
+    "static/js/main.76011648.chunk.js"
+  ]
+}
