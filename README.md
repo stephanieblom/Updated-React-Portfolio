@@ -1,3 +1,23 @@
+# React-Portfolio
+
+# Description 
+
+This is a **React** application that that utilizes functional components that will be used to display my work. 
+
+# DEMO 
+![Portfolio](assets/demo.gif)
+
+## Installation
+
+* Ensure that Node and npm are installed on your computer to run this application. 
+
+## Functionality 
+
+* The user can: 
+    * See about me
+    * See my portfolio 
+    * Contact me 
+    
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
