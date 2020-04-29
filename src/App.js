@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div>
         <NavBar />
-        <Route exact path={["/","/home"]} component={HomePage} />
+        <Route exact path={["/Updated-React-Portfolio","/","/home"]} component={HomePage} />
         <Route exact path="/portfolio" component={PortfolioPage} />
         <Route exact path="/contact" component={ContactPage} />
       </div>

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 function ContactForm() {
  
   return (
-    <div>
+    <div className="container">
          <form>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
