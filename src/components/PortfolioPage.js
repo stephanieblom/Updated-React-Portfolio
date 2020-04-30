@@ -11,8 +11,19 @@ function DiscoverPage() {
   const capstoneCard ={
     backgroundImage: `url(${capstone})`,
     display: 'block',
-    marginLeft: 'auto',
-    marginRight: 'auto',
+    margin: '10px',
+    // marginLeft: 'auto',
+    // marginRight: 'auto',
+    backgroundPosition: '50% 0%',
+  }
+
+  const arrowCard ={
+    backgroundImage: `url(${arrow})`,
+    display: 'block',
+    margin: '10px',
+    // marginLeft: 'auto',
+    // marginRight: 'auto',
+    backgroundPosition: '50% 0%',
   }
 
 
@@ -41,18 +52,6 @@ function DiscoverPage() {
                     </div>
                   </div>
             </div>
-            <div class="col-md-6" id= "capstoneCol">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <img src={arrow} alt="Capstone Project" style={img}/>
-                      </div>
-                      <div class="flip-card-back">
-                        <h1>1st Place 2019 Western Mechanical Engineering Capstone</h1>
-                      </div>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-6">
                 <div class="flip-card">
                     <div class="flip-card-inner">
@@ -68,23 +67,37 @@ function DiscoverPage() {
         </div>
         <br/>
       </div> */}
-      <div class="container" style={capstoneCard}>
-        <div class="overlay">
-          <div class = "items"></div>
-          <div class = "items head">
-            <p>Flower Embroidery Hoop Art</p>
-            <hr/>
-          </div>
-          <div class = "items price">
-            <p class="old">$699</p>
-            <p class="new">$345</p>
-          </div>
-          <div class="items cart">
-            <i class="fa fa-shopping-cart"></i>
-            <span>ADD TO CART</span>
+      <div className="row">
+        <div className="col-12 col-md-4">
+          <div className="container" style={capstoneCard}>
+          <div className="overlay">
+            <div className = "items"></div>
+            <div className = "items head">
+              <p>1st Place 2019 Western Mechanical Engineering Capstone</p>
+              <hr/>
+            </div>
+            <div className="items">
+              <i className="fa fa-2x fa-cogs"></i>
+            </div>
+            </div>
+        </div>
+        <div className="col-12 col-md-4">
+          <div className="container" style={arrowCard}>
+          <div className="overlay">
+            <div className = "items"></div>
+            <div className = "items head">
+              <p>Office IoT System Designed and Fabricated</p>
+              <hr/>
+            </div>
+            <div className ="items">
+              <i className ="fa fa-2x fa-microchip"></i>
+            </div>
           </div>
         </div>
+        </div>
       </div>
+
+        </div>
 
       </div>
         
