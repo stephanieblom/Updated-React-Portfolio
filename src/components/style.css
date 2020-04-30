@@ -30,7 +30,7 @@ body {
     font-size: 10vh;
     color: #585858;
     font-weight: 550;
-    letter-spacing: -20px;
+    letter-spacing: -18px;
 }
 .navbar{
     padding: 0px;
@@ -198,3 +198,26 @@ color: #111;
 p {
     padding: 10px;
 }
+
+@media only screen and (max-width: 375px) {
+    img {
+        size: 100%;
+        max-width:170%;
+        height:auto;
+        position: relative;
+        left: -35%;
+        top: 20px;
+    }
+
+    .aboutMe {
+        position: absolute;
+        top: 160%;
+        width: 85vw;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .hero {
+        height: 200vh;
+    } 
+  }

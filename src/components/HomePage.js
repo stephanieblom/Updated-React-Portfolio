@@ -9,7 +9,7 @@ function HomePage() {
     function executeScrollAboutMe (){
         console.log(`Calling scroll function About Me`)
         
-        window.scrollTo(0, aboutMe.current.offsetTop+140)  
+        window.scrollTo(0, aboutMe.current.offsetTop+700)  
        }
 
     return (
